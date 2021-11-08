@@ -1,0 +1,194 @@
+
+.box{
+    background-color: white;
+    height: 130vh;
+    width: 50vw;
+    border: 2px solid black;
+    margin: 10vh 50vw 50vw 50vh;
+    border-radius: 20px;
+}
+.cake{
+    height: 2vh;
+    width: 2vw;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-left: 35vw;
+    background-color: green;
+    
+}
+.cakew{
+    margin-top: -0.4vh;
+    margin-left: 0.5vw;
+    
+}
+.cakebox{
+    display: flex;
+    flex-direction: row;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+    
+  }
+  .usd{
+      margin-left: 1vw;
+      margin-top: -0.1vh;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .writebox{
+      position: relative;
+      border: 2px solid black;
+      height: 15vh;
+      width: 48vw;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color: rgb(187, 183, 183);
+      opacity: 0.12;
+  }
+  .write{
+      margin-left: 35vw;
+      margin-top: -10vh;
+  }
+  .smallwrite{
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+  .sm{
+      height: 3vh;
+      width: 4vw;
+      border: 2px solid black;
+      margin: 10px 10px 10px 10px;
+      border-radius: 8px;
+      background-color: rgb(187, 183, 183);
+      opacity: 0.8;
+      text-align: center;
+  }
+  .writep{
+      margin-left: 30vw;
+  }
+  .secondbox{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .smallbox{
+      border: 2px solid black;
+      height: 3vh;
+      width: 6vw;
+      margin: 10px 10px 10px 10px;
+      border-radius: 20px;
+      font-size: small;
+      text-align: center;
+  }
+  .sm1{
+      background-color: yellow;
+     
+  }
+  .box2{
+      display: flex;
+      
+  }
+  .switch2{
+margin-left: 30vw;      
+}
+.rates{
+    margin-left: 35vw;
+}
+.ratesp{
+    margin-left: 33vw;
+    margin-top: 5vh;
+}
+.wedge{
+    text-align: center;
+    align-items: center;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+.nine{
+    color: rgb(252, 237, 33);
+    font-weight:bolder;
+}
+.last{
+    color: gray;
+}
+.wd{
+    color: gray;
+    font-size:small;
+}
+.box4{
+    margin-left: 2vw;
+    margin-top: -2vh;
+}
+.roi{
+    display: flex;
+}
+.cross{
+margin-left: 37vw;
+color: grey;
+font-size:x-large;
+margin-top: 1vh;
+}
+  @media screen and (max-width: 980px) {
+    .box{
+      height: 200vh;
+    }
+  }
